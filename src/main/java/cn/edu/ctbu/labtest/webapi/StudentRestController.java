@@ -18,7 +18,6 @@ public class StudentRestController {
     @Autowired
     private StudentImplService studentImplService;
 
-
     /**
      * 读取的url：/webapi/student/list
      *
@@ -31,7 +30,6 @@ public class StudentRestController {
 
         return student;
     }
-
 
     /**
      * 读取的url：/webapi/student/get/id
